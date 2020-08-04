@@ -103,3 +103,48 @@ body {
 .hero__img {
   width: 100%;
 }
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  margin-top: 492px;
+}
+
+.overview {
+  margin-bottom: 218px;
+}
+
+.overview__properties {
+  display: flex;
+}
+
+.info__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 45px;
+}
+
+.overview-text {
+  font-size: 18px;
+  line-height: 180%;
+  margin-bottom: 11px;
+  margin-right: 130px;
+}
+
+.right-side .overview-text {
+  margin-right: 0;
+}
+
+.overview-text--colored {
+  color: #B2B0B2;
+}
+
+.performance__description {
+  max-width: 490px;
+  font-size: 16px;
+  line-height: 29px;
+}
