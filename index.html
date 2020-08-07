@@ -7,6 +7,7 @@
   <title>spaceX</title>
   <link rel="stylesheet" href="styles/normalize.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/vidbg.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -51,7 +52,7 @@
     <div class="container hero__container">
       <h1 class="hero__title">Falcon Heavy</h1>
       <h3 class="hero__subtitle">The most powerful operational rocket in the world by a factor of two</h3>
-      <img class="hero__img" src="images/earth.jpg" alt="earth">
+      <div class="video"></div>
     </div>
   </section>
 
@@ -59,7 +60,7 @@
     <div class="container about__container">
       <div class="info">
         <div class="overview">
-          <h3 class="info__title">Falcon Heavy Overview</h3>
+          <h3 class="info__title">Falcon Heavy<br />Overview</h3>
           <div class="overview__properties">
             <div class="left-side">
               <p class="overview-text">HEIGHT</p>
@@ -89,7 +90,7 @@
           </p>
         </div>
       </div>
-      <img class="about__img" src="images/falcon.png" alt="falcon">
+      <img class="about__img" src="images/falcon-heavy.png" alt="falcon" data-rellax-speed="9">
     </div>
   </section>
 
@@ -121,11 +122,15 @@
           </li>
         </ul>
       </nav>
-      <span class="footer__text">For additional questions, contact rideshare@spacex.com</span>
+      <p class="footer__text">For additional questions, contact <a class="footer-link"
+          href="mailto:rideshare@spacex.com">rideshare@spacex.com</a></p>
       <button class="footer__btn">Contact us</button>
     </div>
   </footer>
 
+  <script src="scripts/vidbg.js"></script>
+  <script src="scripts/rellax.min.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>
