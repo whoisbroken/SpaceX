@@ -295,23 +295,21 @@ body {
   .hero__container {
     padding: 0;
   }
-
-  .video {
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 0;
-  }
-
   .about {
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 90px 0;
+  }
+  
+  .about__container {
+    padding: 0 15px;
+  }
+  .info {
+    z-index: 10;
+    background-color: rgba(0,0,0, 0.5);
     padding: 100px 0;
   }
 
-  .about__container {
-    padding: 50px 15px;
-  }
-
   .about__img {
-    z-index: -1;
+    z-index: 5;
   }
 
   .video {
@@ -347,6 +345,7 @@ body {
   .hero__title {
     font-size: 48px;
   }
+
   .overview-text {
     font-size: 14px;
     margin-right: 35px;
